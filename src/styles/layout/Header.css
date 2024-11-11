@@ -1,0 +1,19 @@
+.header-toolbar {
+}
+
+.header-avatar-view {
+  width: 45px;
+  height: 45px;
+  border-radius: 50px;
+}
+
+.header-avatar-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+.header-avatar-image::part(image) {
+  border-radius: 50px;
+}
